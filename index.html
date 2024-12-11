@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast Close</title>
+  <script>
+    // 페이지 로드 직후 창 닫기
+    window.onload = function () {
+      window.open('', '_self'); // 현재 창 참조
+      window.close(); // 즉시 닫기
+    };
+  </script>
+</head>
+<body>
+</body>
+</html>
